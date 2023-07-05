@@ -46,6 +46,14 @@ int main(int argc, char * argv[])
 		{
 			// Call to parse_jmp
 		}
+		else if (strcmp(token, ".data") == 0)
+		{
+			// Call to parse_data
+		}
+		else if (strcmp(token, ".string") == 0)
+		{
+			// Call to parse_string
+		}
 
 		if (label != NULL)
 		{
